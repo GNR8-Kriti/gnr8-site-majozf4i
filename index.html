@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">To Do List</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Create Task</a></li>
+                <li><a href="#">Dashboard</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Welcome to To Do List</h1>
+        <p>Manage your tasks and reminders effectively</p>
+        <button class="create-task-btn">Create Task</button>
+        <div class="background-image" style="background-image: linear-gradient(to bottom, #ff99cc, #ffcccc);"></div>
+    </section>
+    <section class="content">
+        <h2>Task List</h2>
+        <ul class="task-list">
+            <li>
+                <input type="checkbox" id="task-1">
+                <label for="task-1">Task 1</label>
+            </li>
+            <li>
+                <input type="checkbox" id="task-2">
+                <label for="task-2">Task 2</label>
+            </li>
+            <li>
+                <input type="checkbox" id="task-3">
+                <label for="task-3">Task 3</label>
+            </li>
+        </ul>
+        <form>
+            <input type="text" placeholder="Enter task name" class="task-input">
+            <button class="add-task-btn">Add Task</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 To Do List</p>
+        <ul class="footer-links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
